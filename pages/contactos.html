@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Externo-->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Fuente de Google Fonts para el Body-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fuente de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacto 🏀</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="./pages/inicio.html" target="_blank">Inicio</a></li>
+          <li><a href="./pages/nosotros.html" target="_blank">Nosotros</a></li>
+          <li>
+            <a href="./pages/productos.html" target="_blank">Productos</a>
+          </li>
+          <li>
+            <a href="./contactos.html" target="_blank">Contactos</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="../index.html">
+        <img
+          class="header__logo"
+          src="../imagenes/logo.png"
+          alt="Logo SDZ 24"
+          width="100%"
+          height="400"
+        />
+      </a>
+    </header>
+
+
+    <main>
+      <section>
+        <h1 class="titulo-contacto">Formulario de contacto</h1>
+      <form class="form-contacto" action="https://formspree.io/f/xpwyaabj" method="POST">
+        <div class="grupo-input">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Ingrese su nombre"
+            required
+          />
+        </div>
+        <br />
+        <br />
+
+        <div class="grupo-input">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Ingrese su email"
+            required
+          />
+        </div>
+        <br />
+        <br />
+
+        <div class="grupo-input">
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            cols="30"
+            rows="10"
+            placeholder="Escriba motivo de su mensaje"
+            required
+          ></textarea>
+        </div>
+        <br />
+        <br />
+
+        <input type="hidden" name="subject" value="Consulta" />
+        <button class="btn" type="submit">Enviar</button>
+        <button class="btn" type="reset">Limpiar</button>
+        </section>
+      </form>
+    </main>
+    <footer class="footer">
+      <p>Visita nuestras redes sociales</p>
+      <br />
+      <a href="https://www.facebook.com/" target="_blank">
+        <img src="../imagenes/facebook.png" alt="Logo facebook" width="35" />
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="../imagenes/instagram.png" alt="Logo Instagram" width="35" />
+      </a>
+      <a href="https://www.nba.com/?55" target="_blank">
+        <img src="../imagenes/juegos.png" alt="NBA" width="35" />
+      </a>
+    </footer>
+  </body>
+</html>
