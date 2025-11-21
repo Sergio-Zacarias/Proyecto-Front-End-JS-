@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Pelota LLamarada Moe",
+    "precio": 65000,
+    "descripcion": "Con un tamaño de nº7 y una circunferencia de 74 cm, esta pelota está diseñada para ofrecer un excelente control y manejo en la cancha. Fabricada con material de caucho de alta calidad y una cámara de butilo, garantiza durabilidad y resistencia en cualquier tipo de superficie, ya sea interior o exterior.",
+    "nombreImagen": "imagenes/pelota.jpg"
+  },
+  {
+    "nombre": "Zapatillas MG 20",
+    "precio": 170000,
+    "descripcion": "Eleva tu rendimiento y domina cada rincón de la cancha con las nuevas [Nombre de las zapatillas]. Diseñadas para jugadores que exigen lo máximo, estas zapatillas combinan tecnología de punta con un estilo imponente. Su sistema de amortiguación de doble capa absorbe el impacto en cada salto y aterrizaje, protegiendo tus articulaciones y permitiendo que te muevas con una explosividad sin igual.",
+    "nombreImagen": "imagenes/zapatillas.jpg"
+  },
+  {
+    "nombre": "Aro Exterior",
+    "precio": 300000,
+    "descripcion": "¡Prepárate para encestar y sentir la gloria con este aro de baloncesto profesional! Construido con materiales resistentes y un diseño aerodinámico, este aro te dará la precisión y potencia que necesitas para tus entrenamientos, garantizando horas de diversión y mejora constante de tu juego. ¡Conviértete en el rey de la cancha y anota puntos para la victoria!",
+    "nombreImagen": "imagenes/juegos.png"
+  }
+]
