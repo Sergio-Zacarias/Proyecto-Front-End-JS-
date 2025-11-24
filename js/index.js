@@ -1,6 +1,6 @@
 import { agregarAlCarrito } from "./funcionesCarrito.js";
 import { obtenerCarrito } from "./storage.js";
-import { actualizarContador, mostrarMensaje } from "./ui.js";
+import { actualizarContador } from "./ui.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const contenedor = document.getElementById("contenedor-tarjetas");

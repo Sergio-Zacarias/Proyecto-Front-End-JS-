@@ -1,7 +1,6 @@
 import {
   guardarCarrito,
   obtenerCarrito,
-  vaciarCarrito,
   vaciarCarritoStorage,
 } from "./storage.js";
 import { actualizarContador, mostrarMensaje } from "./ui.js";
