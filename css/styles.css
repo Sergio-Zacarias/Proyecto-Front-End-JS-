@@ -195,6 +195,15 @@ main {
   padding: 1rem;
   border-radius: 1rem;
 }
+/*CARRITO*/
+.msj-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
+}
 /*MEDIA*/
 @media (max-width: 1100px) {
   header,
