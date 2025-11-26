@@ -15,7 +15,7 @@ const renderizarTarjetas = () => {
   if (!carrito.length) {
     const mensaje = document.createElement("p");
     mensaje.classList.add("msj-carrito-vacio");
-    mensaje.textContent("El carrito esta vacio 😛");
+    mensaje.textContent = "El carrito esta vacio 😛";
 
     contenedor.appendChild(mensaje);
     return;

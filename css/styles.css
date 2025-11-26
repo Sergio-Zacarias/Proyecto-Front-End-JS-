@@ -15,7 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
-  background-color: rgb(142, 224, 197);
+  background-color: #f2f4f7;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -31,10 +31,17 @@ main {
   align-items: center;
 }
 
-header,
+header {
+  background-color: #1c2b41;
+  font-style: oblique;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 footer {
-  background-color: bisque;
-  color: rgb(77, 17, 17);
+  background-color: #00a693;
   font-style: oblique;
   width: 100%;
   padding: 2rem;
@@ -69,7 +76,7 @@ footer {
 }
 
 .header__nav a {
-  color: rgb(77, 17, 17);
+  color: #ffffff;
   text-decoration: none;
   display: inline-block; /*Los elementos inline no pueden crecer en su eje vertical por eso es que se le da la propiedad inline block*/
   padding: 1rem;
@@ -120,16 +127,17 @@ main {
   margin: 3rem;
   text-align: center;
 }
-
+/*TARJETAS*/
 .contenedor-tarjetas {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 3rem;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
 .tarjeta-producto {
-  background-color: rgb(172, 13, 13);
+  background-color: #6a4c93;
   padding: 1rem;
   border-radius: 1rem;
   width: 30rem;
@@ -140,13 +148,16 @@ main {
   gap: 1rem;
 }
 
+.tarjeta-producto img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
 .tarjeta-producto h3 {
   font-family: "Google Sans Code", monospace;
 }
 
-.tarjeta-producto img {
-  width: 100%;
-  border-radius: 0.5rem;
+.tarjeta-producto p {
+  color: floralwhite;
 }
 
 .tarjeta-producto a {
